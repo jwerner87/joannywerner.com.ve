@@ -1,0 +1,221 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1, user-scalable=no">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <link href="https://fonts.googleapis.com/css?family=Roboto" rel="stylesheet">
+    <link href="https://file.myfontastic.com/rukc3UQQXBYXfXtfGMXc47/icons.css" rel="stylesheet">
+    <link rel="icon" href="img/mi-icon.png">
+    <link rel="stylesheet" href="css/bootstrap.min.css">
+    <link rel="stylesheet" href="css/animate.min.css">
+    <link rel="stylesheet" href="css/style.css">
+    <title>Joanny Werner | Desarrollador Web Front-End</title>
+  </head>
+  <body>
+
+    <nav id="page-top">
+      <div id="mySidenav" data-spy="scroll" data-target=".navbar-fixed" class="sidenav">
+        <a href="javascript:void(0)" class="closebtn" onclick="closeNav()">&times;</a>
+        <a class="page-scroll" href="#quien">Quién soy</a>
+        <a class="page-scroll" href="#port">Portafolio</a>
+        <a class="page-scroll" href="#escribeme">Escríbeme</a>
+        <a class="link">Blog</a>
+      </div>
+    </nav>
+
+    <header class="cabecera">
+      <div class="fondo-rgba">
+        <div class="container">
+          <div id="main" class="navbar-fixed-top">
+            <span class="burger" onclick="openNav()"><div class="animated infinite tada">&#9776;</div></span>
+          </div>
+          <div class="row">
+
+            <div class="col-xs-12 animated bounceInUp"><h1 class="my-name">Joanny Werner</h1></div>
+            <div class="col-xs-12 animated bounceInLeft"><h2>Desarrollador Web <strong><div class="fnt-verde animated infinite bounce">Front-End</div></strong></h2></div>
+          </div>
+        </div>
+      </div>
+    </header>
+
+    <section class="sect-quiensoy" id="quien">
+      <div class="container">
+        <div class="row">
+          <div class="col-xs-12"><h1>Quién <span class="fnt-verde">Soy</span></h1></div>
+        </div>
+        <div class="row mi-info">
+          <div class="col-xs-12 col-sm-12 col-md-4"><center><img src="img/IMG-20160205-WA0011.png" alt="..." class="img-circle"></center></div>
+          <div class="col-xs-12 col-sm-12 col-md-4"><h4>Hola mi nombre es Joanny Werner de Caracas Venezuela, Técnico Superior Universitario en Informática (2008), desarrollador web Front-End con múltiples habilidades y conocimientos en HTML5 y CSS3, Javascript (en especial jQuery). Preprocesador CSS como SASS, familiarizado con gestores de tareas como Gulp y Bower, manejadores de paquetes y dependencias a través de la consola (Cmder).</h4></div>
+          <div class="col-xs-12 col-sm-12 col-md-4"><h4>Si algo es complicado, simplemente no se usa demasiado, y para el diseño web esto es importante, por esta razón mantengo claro los conceptos de usabilidad, accesibilidad y experiencia de usuario; mi finalidad es, que una página web sea entendible, agradable y exitosa. Me gusta diseñar páginas web, es divertido, siempre diseñando de corazón, cubriendo las necesidades y expectativas del usuario final, ambos quedando contentos por lo que se logra hacer. El objetivo es amar lo que se hace y sentir el placer del buen resultado obtenido.</h4></div>
+        </div>
+        <div class="row">
+          <div class="col-xs-12">
+            <center><a href="https://www.linkedin.com/in/joanny-werner-99a270130" target="_blank" type="button" class="btn btn-success btn-lg"><span class="icon-file-text"></span> Mi Hoja de Vida</a></center>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <section class="sect-portafolio" id="port">
+      <div class="container">
+        <div class="row">
+          <div class="col-xs-12"><h1>Por<span class="fnt-verde">tafo</span>lio</h1></div>
+        </div>
+        <div class="row">
+          <div class="colo-xs-12 col-sm-4">
+            <div class="thumbnail">
+              <img src="img/constr1703030.png" alt="..." class="img-thumbnail">
+              <div class="caption">
+                <h3>puntodenieve.cl</h3>
+                <p>Empresa dedicada a todo lo relacionado con repostería, materiales y servicios con la mejor calidad y profesionalismo.</p>
+                <p><a class="btn btn-info" role="button">Entrar</a></p>
+              </div>
+            </div>
+          </div>
+          <div class="colo-xs-12 col-sm-4">
+            <div class="thumbnail">
+              <img src="img/constr1703030.png" alt="..." class="img-thumbnail">
+              <div class="caption">
+                <h3>eventosiluson.com.ve</h3>
+                <p>Empresa dedicada a todo lo relacionado con eventos musicales, logística y festejos. Cumpliendo con las espectativas de sus clientes.</p>
+                <p><a class="btn btn-info" role="button">Entrar</a></p>
+              </div>
+            </div>
+          </div>
+          <div class="colo-xs-12 col-sm-4">
+            <div class="thumbnail">
+              <img src="img/constr1703030.png" alt="..." class="img-thumbnail">
+              <div class="caption">
+                <h3>imprentalosdos.com.ve</h3>
+                <p>Empresa dedicada a la venta y distribución de materiales para oficinas, útiles escolares y papelería en general.</p>
+                <p><a class="btn btn-info" role="button">Entrar</a></p>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <section class="sect-escribeme" id="escribeme">
+      <div class="container">
+        <div class="row">
+          <div class="col-xs-12"><h1 class="h1-escribemee"><span  class="fnt-verde">Escrí</span>beme</h1></div>
+        </div>
+        <form name="sentMessage" id="contactForm" novalidate>
+          <div class="row">
+            <div class="input-field col-xs-12 col-sm-6">
+              <input id="name" type="text" class="form-control validate" placeholder="Escribe aqui tu nombre...">
+            </div>
+            <div class="input-field col-xs-12 col-sm-6">
+              <input id="phone" type="text" class="form-control validate" placeholder="Escribe aqui tu N° móvil...">
+            </div>
+          </div>
+          <br>
+          <div class="row">
+            <div class="input-field col-xs-12">
+              <input id="email" type="email" class="form-control validate" placeholder="Escribe aqui tu email...">
+            </div>
+          </div>
+          <br>
+          <div class="row">
+            <div class="input-field col-xs-12">
+              <textarea id="message" class="form-control validate" rows="3" placeholder="Escribe aqui tu mensaje..."></textarea>
+            </div>
+          </div>
+          <br>
+          <div class="row">
+            <div class="input-field col-xs-12">
+              <div id="success"></div>
+              <center><button type="submit" class="btn btn-success btn-lg"><span class="icon-check-square-o"></span> Enviar</button></center>
+            </div>
+          </div>
+        </form>
+      </div>
+    </section>
+
+    <footer>
+      <div class="container">
+        <div class="row">
+          <div class="col-xs-6 col-sm-6 col-md-6 col-lg-3">
+            <center>
+              <a class="btn1 btn-responsive btn btn-default page-scroll" href="#page-top">Inicio</a>
+              <a class="btn2 btn-responsive btn btn-default page-scroll" href="#quien">Quién Soy</a>
+            </center>
+          </div>
+          <div class="col-xs-6 col-sm-6 col-md-6 col-lg-3">
+            <center>
+              <a class="btn3 btn-responsive btn btn-default page-scroll" target="_blank">Blog</a>
+              <a class="btn4 btn-responsive btn btn-default page-scroll" href="#escribeme">Escríbeme</a>
+            </center>
+          </div>
+          <div class="col-xs-6 col-sm-6 col-md-6 col-lg-3">
+            <center>
+              <a class="btn5 btn-responsive btn btn-default page-scroll" href="#port">Portafolio</a>
+              <a class="btn7 btn-responsive btn btn-default page-scroll" target="_blank">Dedicatoria</a>
+            </center>
+          </div>
+          <div class="col-xs-6 col-sm-6 col-md-6 col-lg-3">
+            <center>
+              <a class="btn6 btn-responsive btn btn-default page-scroll" href="miportal2015/index.html" target="_blank">Portal 2015</a>
+              <a class="btn8 btn-responsive btn btn-default page-scroll" href="miportal2016/index.html" target="_blank">Portal 2016</a>
+            </center>
+          </div>
+        </div>
+        <br>
+        <div class="row">
+          <div class="col-xs-12">
+            <center>
+              <p class="parrafo">Te invito a que visites mis redes sociales</p>
+              <a href="https://www.facebook.com/joanny.werner" target="_blank"><span class="icon-social icon-facebook-square"></span></a>
+              <a href="https://twitter.com/joannywerner?lang=es" target="_blank"><span class="icon-social icon-twitter-square"></span></a>
+              <a href="https://www.linkedin.com/in/joanny-werner-99a270130" target="_blank"><span class="icon-social icon-linkedin-square"></span></a>
+              <a href="https://github.com/jwerner87" target="_blank"><span class="icon-social icon-github-square"></span></a>
+              <p class="parrafo">Copyright © 2015 - 2017 Joanny Werner | Desarrollador Web Front-End</p>
+            </center>
+          </div>
+        </div>
+      </div>
+    </footer>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+    <script>
+      function openNav() {
+      document.getElementById("mySidenav").style.width = "250px";
+      document.getElementById("main").style.marginLeft = "250px";
+      }
+
+      function closeNav() {
+      document.getElementById("mySidenav").style.width = "0";
+      document.getElementById("main").style.marginLeft= "0";
+      }
+    </script>
+    <script src="js/jquery.min.js"></script>
+    <script type="text/javascript" src="js/SmoothScroll.js"></script>
+    <script type="text/javascript" src="js/main.js"></script>
+    <script src="js/jqBootstrapValidation.js"></script>
+    <script type="text/javascript" src="js/contact_me.js"></script>
+    <script src="js/bootstrap.min.js"></script>
+  </body>
+</html>

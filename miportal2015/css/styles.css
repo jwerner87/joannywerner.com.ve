@@ -1,0 +1,104 @@
+/********** englobar web **********/
+.navbar-default .navbar-brand {
+        font-size: 3em;
+        color: #cddc39;        
+}
+
+.navbar-default .navbar-brand:hover {
+    color: #e65100;
+}
+
+/********** link menu **********/
+.navbar-default .nav li a {
+    font-size: 1.1em;
+    color: #e65100;
+}
+
+.navbar-default .nav li a:hover,
+.navbar-default .nav li a:focus {
+    color: #cddc39;
+}
+
+.navbar-default .navbar-nav>.active>a {
+    border-radius: 0em 2em 0em 2em;
+    color: #000000;
+    background-color: #cddc39;
+}
+
+.navbar-default .navbar-nav>.active>a:hover,
+.navbar-default .navbar-nav>.active>a:focus {
+    color: #000000;
+    background-color: #cddc39;
+}
+
+/********** botón quiero ver más **********/
+.btn-xl {
+    border-color: #cddc39;
+    border-radius: 1em;
+    font-size: 1.5em;
+    color: #e65100;
+    background-color: #cddc39;
+}
+
+.btn-xl:hover,
+.btn-xl:focus,
+.btn-xl:active,
+.btn-xl.active,
+.open .dropdown-toggle.btn-xl {
+    border-color: #e65100;
+    color: #cddc39;
+    background-color: #e65100;
+}
+
+/********** botón ver este portal web **********/
+.btn-primary {
+    border-color: #cddc39;
+    border-radius: 1em;
+    font-size: 1.5em;
+    color: #e65100;
+    background-color: #cddc39;
+}
+
+.btn-primary:hover,
+.btn-primary:focus,
+.btn-primary:active,
+.btn-primary.active,
+.open .dropdown-toggle.btn-primary {
+    border-color: #e65100;
+    color: #cddc39;
+    background-color: #e65100;
+}
+
+/********** botón cerrar y regresar **********/
+.btn-primary-otro {
+    border-color: #e65100;
+    border-radius: 1em;
+    font-size: 1.5em;
+    color: #cddc39;
+    background-color: #e65100;
+}
+
+.btn-primary-otro:hover,
+.btn-primary-otro:focus,
+.btn-primary-otro:active,
+.btn-primary-otro.active,
+.open .dropdown-toggle.btn-primary-otro {
+    border-color: #cddc39;
+    color: #e65100;
+    background-color: #cddc39;
+}
+
+/********** formulario **********/
+.section-heading-contacto, .text-muted-contacto{
+    color: #ffffff;
+}
+
+.form-control {
+  background-color: #eceff1;
+  border: 5px solid #000000;
+}
+
+section#contact .form-control:focus {
+    border-color: #cddc39;
+    box-shadow: none;
+}

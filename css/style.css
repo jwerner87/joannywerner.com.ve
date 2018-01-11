@@ -1,0 +1,263 @@
+body {
+  font-family: 'Roboto', sans-serif; }
+
+.sidenav {
+  background-color: #000;
+  height: 100%;
+  width: 0;
+  position: fixed;
+  z-index: 1;
+  top: 0;
+  left: 0;
+  overflow-x: hidden;
+  transition: 0.5s;
+  padding-top: 50px; }
+
+.sidenav a {
+  padding: 8px 8px 8px 32px;
+  text-decoration: none;
+  font-size: 17px;
+  color: #FFF;
+  display: block;
+  transition: 0.5s; }
+
+a, .page-scroll:hover {
+  color: #398439; }
+
+.burger:hover {
+  color: #398439; }
+
+a, .closebtn:hover {
+  color: #ac2925; }
+
+.sidenav .closebtn {
+  position: absolute;
+  top: 0;
+  right: 25px;
+  font-size: 40px;
+  margin-left: 50px; }
+
+#main {
+  transition: margin-left 0.5s;
+  padding: 16px;
+  max-width: 0px; }
+
+.burger {
+  font-size: 72px;
+  cursor: pointer;
+  color: #FFF; }
+
+.fondo-rgba {
+  background-color: rgba(0, 0, 0, 0.7);
+  position: relative;
+  height: 100vh;
+  width: 100%;
+  background-position: center center;
+  background-size: cover;
+  background-attachment: fixed; }
+
+.cabecera {
+  background-image: url(../img/headermi.png);
+  position: relative;
+  height: 100vh;
+  width: 100%;
+  background-position: center center;
+  background-size: cover;
+  background-attachment: fixed; }
+
+.my-name {
+  padding-top: 1.5em; }
+
+.sect-quiensoy {
+  height: 100vh; }
+
+.img-circle {
+  box-shadow: -0.1em -0.1em 5em 1em #000; }
+
+.sect-quiensoy, .sect-portafolio, footer {
+  background-image: url(../img/footer_lodyas.png); }
+
+h1, h2 {
+  color: #FFF;
+  text-align: right;
+  padding-right: 1em; }
+
+h1 {
+  font-size: 108px; }
+
+h4 {
+  color: #FFF; }
+
+.fnt-verde {
+  color: #398439; }
+
+.h1-portafolio, .h1-escribeme {
+  font-size: 72px; }
+
+.mi-info {
+  padding-top: 1em; }
+
+.sect-escribeme {
+  background-image: url(../img/sectioncontac.png);
+  position: relative;
+  height: 100vh;
+  width: 100%;
+  background-position: center center;
+  background-size: cover;
+  background-attachment: fixed; }
+
+footer {
+  height: 65vh;
+  padding-top: 1em; }
+
+.btn1 {
+  border-width: medium;
+  border-color: #4CAE4C;
+  background-color: inherit;
+  color: #FFF;
+  font-weight: bold; }
+
+.btn1:hover {
+  background-color: inherit;
+  color: #4CAE4C;
+  border-color: #FFF; }
+
+.btn2 {
+  border-width: medium;
+  border-color: #46B8DA;
+  background-color: inherit;
+  color: #FFF;
+  font-weight: bold; }
+
+.btn2:hover {
+  background-color: inherit;
+  color: #46B8DA;
+  border-color: #FFF; }
+
+.btn3 {
+  border-width: medium;
+  border-color: #EEA236;
+  background-color: inherit;
+  color: #FFF;
+  font-weight: bold; }
+
+.btn3:hover {
+  background-color: inherit;
+  color: #EEA236;
+  border-color: #FFF; }
+
+.btn4 {
+  border-width: medium;
+  border-color: #d43f3a;
+  background-color: inherit;
+  color: #FFF;
+  font-weight: bold; }
+
+.btn4:hover {
+  background-color: inherit;
+  color: #d43f3a;
+  border-color: #FFF; }
+
+.btn5 {
+  border-width: medium;
+  border-color: #7a63e9;
+  background-color: inherit;
+  color: #FFF;
+  font-weight: bold; }
+
+.btn5:hover {
+  background-color: inherit;
+  color: #7a63e9;
+  border-color: #FFF; }
+
+.btn6 {
+  border-width: medium;
+  border-color: #ee49c5;
+  background-color: inherit;
+  color: #FFF;
+  font-weight: bold; }
+
+.btn6:hover {
+  background-color: inherit;
+  color: #ee49c5;
+  border-color: #FFF; }
+
+.btn7 {
+  border-width: medium;
+  border-color: #84d01f;
+  background-color: inherit;
+  color: #FFF;
+  font-weight: bold; }
+
+.btn7:hover {
+  background-color: inherit;
+  color: #84d01f;
+  border-color: #FFF; }
+
+.btn8 {
+  border-width: medium;
+  border-color: #fc7300;
+  background-color: inherit;
+  color: #FFF;
+  font-weight: bold; }
+
+.btn8:hover {
+  background-color: inherit;
+  color: #fc7300;
+  border-color: #FFF; }
+
+.parrafo {
+  color: #FFF;
+  font-size: 16px; }
+
+.icon-social {
+  color: #FFF;
+  font-size: 48px; }
+
+.icon-facebook-square:hover {
+  color: #020061; }
+
+.icon-twitter-square:hover {
+  color: #347fcd; }
+
+.icon-linkedin-square:hover {
+  color: #191be2; }
+
+.icon-github-square:hover {
+  color: #3d413b; }
+
+@media screen and (max-height: 450px) {
+  .sidenav {
+    padding-top: 15px; }
+  .sidenav a {
+    font-size: 12px; } }
+
+@media screen and (max-width: 992px) {
+  .burger {
+    font-size: 36px; }
+  h1 {
+    font-size: 72px; }
+  h2 {
+    font-size: 24px; }
+  h4 {
+    font-size: 14px; }
+  .img-circle {
+    max-height: 200px;
+    max-width: 200px; }
+  .h1-portafolio {
+    font-size: 70px; }
+  .h1-escribeme {
+    font-size: 24px; } }
+
+@media screen and (max-width: 768px) {
+  h1 {
+    font-size: 30px; }
+  h2 {
+    font-size: 14px; }
+  h3 {
+    font-size: 20px; }
+  .img-circle {
+    max-height: 150px;
+    max-width: 150px; }
+  .h1-portafolio {
+    font-size: 24px; } }
